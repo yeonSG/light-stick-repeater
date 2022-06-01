@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="com.silabs.module.additional.pdm.com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904 - EFR32FG1P133F256GM48" propertyScope="project" contentRoot=".">
+  <folder name="emlib" partCompatibility=".*efr32.*">
+    <file name="system_efr32fg1p.c" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32FG1P/Source/system_efr32fg1p.c"/>
+  </folder>
+  <folder name="hal-config">
+    <file name="hal-config.h" uri="studio:/project/hal-config/hal-config.h"/>
+  </folder>
+  <folder name="emdrv">
+    <file name="uartdrv.c" uri="studio:/project/emdrv/uartdrv.c"/>
+  </folder>
+  <file name="rail_config.h" uri="studio:/project/rail_config.h"/>
+  <file name="rail_config.c" uri="studio:/project/rail_config.c"/>
+  <file name="rail_test_commands.txt" uri="studio:/project/rail_test_commands.txt"/>
+  <file name="efr32_radio_configurator_log.txt" uri="studio:/project/efr32_radio_configurator_log.txt"/>
+  <file name="custom_efr32fg1p133f256gm48.hwconf" uri="studio:/project/custom_efr32fg1p133f256gm48.hwconf"/>
+  <file name="main.c" uri="studio:/project/main.c"/>
+  <file name="flex-configuration.h" uri="studio:/project/flex-configuration.h"/>
+  <file name="yes_infra_dual-prebuild.py" uri="studio:/project/yes_infra_dual-prebuild.py"/>
+  <file name="yes_infra_dual.mak" uri="studio:/project/yes_infra_dual.mak"/>
+  <file name="yes_infra_dual-postbuild.py" uri="studio:/project/yes_infra_dual-postbuild.py"/>
+  <file name="yes_infra_dual-postbuild.bat" uri="studio:/project/yes_infra_dual-postbuild.bat"/>
+  <file name="yes_infra_dual-prebuild.bat" uri="studio:/project/yes_infra_dual-prebuild.bat"/>
+  <includePath uri="studio:/project/"/>
+  <includePath uri="studio:/project/hal-config"/>
+  <includePath uri="studio:/project/emdrv"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/stack"/>
+  <includePath languageCompatibility="c asm" uri="studio:/sdk/protocol/flex/util"/>
+  <includePath partCompatibility=".*efr32.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs-Restricted/EFR32FG1P/Include"/>
+  <includePath partCompatibility=".*efr32.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs/EFR32FG1P/Include"/>
+  <includePath partCompatibility=".*ember.*" languageCompatibility="c asm" uri="studio:/sdk/platform/Device/SiliconLabs/efr32fg1p/Include"/>
+  <includePath uri="studio:/project/./hal-config"/>
+  <includePath uri="studio:/sdk/hardware/kit/common"/>
+  <includePath uri="studio:/sdk/hardware/kit/common/bsp"/>
+  <includePath uri="studio:/sdk/hardware/kit/common/drivers"/>
+  <includePath uri="studio:/sdk/hardware/kit/common/halconfig"/>
+  <includePath uri="studio:/sdk/platform/base/hal"/>
+  <includePath uri="studio:/sdk/platform/base/hal/.."/>
+  <includePath uri="studio:/sdk/platform/base/hal/micro"/>
+  <includePath uri="studio:/sdk/platform/base/hal/micro/cortexm3/common"/>
+  <includePath uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32"/>
+  <includePath uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32/board"/>
+  <includePath uri="studio:/sdk/platform/base/hal/micro/cortexm3/efm32/config"/>
+  <includePath uri="studio:/sdk/platform/CMSIS/Include"/>
+  <includePath uri="studio:/sdk/platform/emdrv/common/inc"/>
+  <includePath uri="studio:/sdk/platform/emdrv/gpiointerrupt/inc"/>
+  <includePath uri="studio:/sdk/platform/emdrv/rtcdrv/config"/>
+  <includePath uri="studio:/sdk/platform/emdrv/rtcdrv/inc"/>
+  <includePath uri="studio:/sdk/platform/emdrv/sleep/inc"/>
+  <includePath uri="studio:/sdk/platform/emdrv/ustimer/config"/>
+  <includePath uri="studio:/sdk/platform/emdrv/ustimer/inc"/>
+  <includePath uri="studio:/sdk/platform/emlib/inc"/>
+  <includePath uri="studio:/sdk/platform/halconfig/inc/hal-config"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/chip/efr32"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/chip/efr32/rf/common/cortex"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/common"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/hal"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/hal/efr32"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/ble"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/ieee802154"/>
+  <includePath uri="studio:/sdk/protocol/flex/connect/plugins"/>
+  <includePath uri="studio:/sdk/protocol/flex/connect/plugins/stack"/>
+  <includePath uri="studio:/sdk/protocol/flex/connect/plugins/stack/include"/>
+  <includePath uri="studio:/sdk/util/silicon_labs/silabs_core/command_interpreter"/>
+  <includePath uri="studio:/sdk/util/silicon_labs/silabs_core/memory_manager"/>
+  <includePath uri="studio:/sdk/util/silicon_labs/silabs_core/queue"/>
+  <includePath uri="studio:/sdk/util/silicon_labs/silabs_core/response_print"/>
+  <macroDefinition languageCompatibility="c asm" name="NULL_BTL" value="1"/>
+  <macroDefinition languageCompatibility="c asm" name="CONFIGURATION_HEADER" value="&quot;flex-configuration.h&quot;"/>
+  <macroDefinition partCompatibility=".*ember.*" languageCompatibility="c asm" name="CORTEXM3_EFR32FG1P133F256GM48" value="1"/>
+  <macroDefinition partCompatibility=".*ember.*" languageCompatibility="c asm" name="CORTEXM3_EFR32FG1P133F256GM48_MICRO" value="1"/>
+  <macroDefinition languageCompatibility="c asm" name="PLATFORM_HEADER" value="&quot;platform/base/hal/micro/cortexm3/compiler/gcc.h&quot;"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32FG1P" value="1"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32FG1P133F256GM48" value="1"/>
+  <macroDefinition partCompatibility=".*efr32.*" languageCompatibility="c asm" name="EFR32_SERIES1_CONFIG1_MICRO" value="1"/>
+  <macroDefinition name="HAL_MICRO" value=""/>
+  <macroDefinition name="EMBER_SERIAL0_DEBUG" value=""/>
+  <macroDefinition name="EMBER_AF_API_EMBER_TYPES" value="&quot;stack/include/ember-types.h&quot;"/>
+  <macroDefinition name="EMBER_STACK_CONNECT" value=""/>
+  <macroDefinition name="HAL_CONFIG" value="1"/>
+  <macroDefinition name="EMBER_AF_USE_HWCONF" value=""/>
+  <macroDefinition name="PHY_RAIL" value="1"/>
+  <toolOption toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.configSymbolDefs.v6.2.0" value="NULL_BTL=1  FLASH_SIZE=262144 RAM_SIZE=32768 SIMEEPROM_SIZE=0"/>
+  <toolOption partCompatibility=".*efr32.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="${TOOLKIT_DIR}/config/linker/SiliconLaboratories/EFR32FG1P133F256GM48.icf"/>
+  <toolOption partCompatibility=".*efr32.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.programEntry.v5.4.0" value="__iar_program_start"/>
+  <toolOption partCompatibility=".*ember.*" toolId="iar.arm.toolchain.linker.v5.4.0" optionId="iar.arm.toolchain.linker.option.icfFile.v5.4.0" value="C:/SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.3/platform/base/hal/micro/cortexm3/em35x/efr32fg1p133f256gm48/iar-cfg.icf"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${StudioSdkPath}/platform/base/hal/../../Device/SiliconLabs/EFR32FG1P/Source/GCC/efr32fg1p.ld"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="gnu.c.link.option.other">
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=FLASH_SIZE=262144"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=RAM_SIZE=32768"/>
+    <toolListOption partCompatibility=".*efr32.* .*em.*" value="--defsym=SIMEEPROM_SIZE=0"/>
+    <toolListOption partCompatibility=".*efr32.*" value="--defsym=NULL_BTL=1"/>
+    <toolListOption partCompatibility=".*efr32.*" value=""/>
+  </toolOption>
+  <prebuildStep> cmd //c 'C:\SILICO~1\202005~1/yes_infra_dual-prebuild.bat' '${BuildArtifactFileBaseName}' '${ProjDirPath}' '${TOOLKIT_DIR}' 'C:\SiliconLabs\SimplicityStudio\v4'</prebuildStep>
+  <postbuildStep> cmd //c 'C:\SILICO~1\202005~1/yes_infra_dual-postbuild.bat' '${BuildArtifactFileBaseName}' '${ProjDirPath}' '${TOOLKIT_DIR}' 'C:\SiliconLabs\SimplicityStudio\v4'</postbuildStep>
+</project>
