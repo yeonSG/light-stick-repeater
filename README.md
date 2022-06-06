@@ -19,5 +19,18 @@ https://github.com/szongen/ESP32_ePaper
 # EDP 구현 TODO.
 ## 핀 Out 확인 
     - [ ] 회로도와 코드 비교하여 핀번호 맞게 되어있는지 확인
+    : PC6   ->  LCD_SI      Display SPI Data Pin
+    : PC7   ->  LCD_REST_N  Display Reset Pin
+    : PC8   ->  LCD_SCLK    Display SPI Clock Pin
+    : PD14  ->  LCD_SCS     Display SPI Chip select Pin
+    : PF0   ->  LCD_BS      ??
+    : PF1   ->  LCD_DC      Display Data/Command Control Pin
+    : PF2   <-  LCD_BUSY_N  Display Busy Pin
+
+    - [ ] 질문사항    
+    : 1. BS 핀은 용도가 뭘까?
+    : 2. 회로도의 RST_N 회로는 무엇인가?
+    : 3. SPI 통신 구현팁?
+
 ## 코드구현: SPI회로 init함수 구현.
 ## 코드구현: 루프문에 들어갈 Frame write 함수 구현. 
